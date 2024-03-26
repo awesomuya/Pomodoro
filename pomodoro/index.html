@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <label class="name"><b>Pomodoro Timer</b></label>
+
+    <main>
+      <label class="title"><b>Why don't you take a challenge?</b></label
+      ><br /><br />
+
+      <div id="container1">
+        <div class="container-item">
+          <div>Pomodoro <label id="pomodoroIndex">0</label></div>
+        </div>
+        <div class="container-item">
+          <div>Reset <label id="restIndex">0</label></div>
+        </div>
+        <div class="container-item">
+          <div>Long Reset <label id="longrestIndex">0</label></div>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="circle"><label id="clock">25:00</label></div>
+      </div>
+      <br />
+
+      <div class="container3">
+        <div><button id="btn1" class="btn1">Start</button></div>
+        <br />
+        <div><button id="stopBtn">Stop</button></div>
+      </div>
+    </main>
+    <br />
+
+    <section>
+      <div>
+        <h2>Tasks <label id="index1">0</label></h2>
+      </div>
+      <div class="taskContainer">
+        <button id="saveBtn">Save</button><button id="resetBtn">Reset</button>
+      </div>
+      <input id="tasksInput" /><br />
+    </section>
+
+    <div class="section-container">
+      <ul id="output1"></ul>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+#container1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.container-item {
+  color: green;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(203, 221, 248, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle label {
+  position: absolute;
+  font-size: 24px;
+  color: blue;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  width: 200px;
+  height: 35px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.taskContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center
+  ;
+}
+
+#saveBtn{
+  width: 75px;
+  height: 35px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+
+#resetBtn{
+  width: 75px;
+  height: 35px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+
+#stopBtn{
+  width: 200px;
+  height: 35px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  justify-content: left;
+  align-items: last baseline;
+}
+
+
+
+.vertical-hr {
+  transform: rotate(90deg);
+}
+
+
+
+section {
+  display: flex;
+}
+
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.saveBtn{
+  margin: 10px;
+}
+
+.section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item{
+  font-size: 25px;
+}
+
+.taskContainer{
+  margin: 10px;
+}
